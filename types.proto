@@ -33,3 +33,8 @@ message Msg1 {
  */
 message Msg2 {
 }
+
+
+service Demo {
+  rpc SayHello (Msg1) returns (Msg2) {}
+}

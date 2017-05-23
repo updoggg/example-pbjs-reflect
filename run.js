@@ -45,4 +45,9 @@ pbjs.load("types.proto", function(err, root) {
 
   console.log();
   console.log('buffer:', buffer);
+
+  // Services
+  console.log("Service Demo:");
+  console.log('\t', JSON.stringify(root.Demo));
+
 });
