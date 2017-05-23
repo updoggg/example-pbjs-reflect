@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+/// Msg1 comment
+message Msg1 {
+
+  /**
+   * i32 field comment
+   */
+  int32 i32 = 1;
+
+  /**
+   * bool field comment
+   */
+  repeated bool flag = 2;
+
+
+  /**
+   * Inner comment
+   */
+  message Inner {
+
+    /// str field comment
+    string str = 3;
+  }
+
+  /// embedded message field comment
+  Inner sub = 5;
+
+}
+
+/**
+ * Msg2 comment
+ */
+message Msg2 {
+}

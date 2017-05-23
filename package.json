@@ -1,0 +1,13 @@
+{
+  "name": "try_pbjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js"
+  },
+  "author": "updogliu",
+  "devDependencies": {
+    "protobufjs": "^6.7.3"
+  }
+}
